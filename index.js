@@ -1,7 +1,7 @@
 const { Bot } = require("grammy");
 require("dotenv").config();
 const mongoose = require("mongoose");
-const User = require("./models/User");
+const User = require("User");
 
 // Initialize the bot
 const bot = new Bot(process.env.BOT_TOKEN);
